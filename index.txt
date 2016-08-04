@@ -1,3 +1,7 @@
 This document is simply a list of the other documents in this repository
 
 - README.md
+- greatest-sports-teams.txt
+- angriest-cities.txt
+- highest-income-states.txt
+- worst-text-editors.txt
