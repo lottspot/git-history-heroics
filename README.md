@@ -18,7 +18,7 @@ The closer you adhere to these guidelines, the more useful your history will be:
 ### Configure the lab branch
 
 ```
-git checkout git-add-p
+git checkout -b git-add-p origin/git-add-p
 git apply changes.patch
 ```
 
@@ -35,7 +35,7 @@ Also when:
 ### Configure the lab branch
 
 ```
-git checkout git-commit-amend
+git checkout -b git-commit-amend origin/git-commit-amend
 git apply changes.patch
 ```
 
@@ -53,7 +53,8 @@ Also when:
 ### Configure the lab branch
 
 ```
-git checkout git-stash
+git checkout -b good-to-merge origin/good-to-merge
+git checkout -b git-stash origin/git-stash
 git apply changes.patch
 ```
 
@@ -66,15 +67,15 @@ Also when:
 ### Configure the lab branch
 
 ```
-git checkout -b git-conflicts conflict-path-a
-git merge conflict-path-b
+git checkout -b git-conflicts origin/conflict-path-a
+git merge origin/conflict-path-b
 ```
 # Making use of history
 
 ## The lab branch
 
 ```
-git checkout git-history
+git checkout -b git-history origin/git-history
 ```
 
 ## When you just want to see previous commit messages
