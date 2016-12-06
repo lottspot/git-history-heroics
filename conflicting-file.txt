@@ -1,0 +1,3 @@
+This file will cause a conflict when
+you run `git merge conflict-path-b`
+Discard this change.
