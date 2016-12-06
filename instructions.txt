@@ -1,0 +1,15 @@
+In order to see the problem you're facing, go ahead and attempt a merge
+by running `git merge good-to-merge`. You will notice that git does not
+let you proceed because of uncommitted changes to index.txt.
+
+In order to save your changes to index.txt without losing them and without
+committing them, go ahead and run the `git stash` command. Once the changes
+have been stashed, you should be able to see your stashed changes using
+`git stash show`.
+
+Now that the changes are out of the way, go ahead and re-run `git merge good-to-merge`
+to complete the merge. We can re-apply our changes on top of the merged
+branch by now running `git stash pop`. Once you pop the changes from your
+stash, you will notice `git status` shows the change has been re-applied
+to the working index, and `git stash show` shows that no changes are any
+longer stashed.
