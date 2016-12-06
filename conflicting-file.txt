@@ -1,0 +1,3 @@
+This file will cause a conflict when
+you merge conflict-path-b into conflict-path-a
+Keep this change.
