@@ -69,16 +69,6 @@ Also when:
 git checkout -b git-conflicts conflict-path-a
 git merge conflict-path-b
 ```
-
-### Reset the lab branch for a clean go
-
-```
-git stash
-git stash drop
-git checkout master
-git branch -D git-conflicts
-```
-
 # Making use of history
 
 ## The lab branch
