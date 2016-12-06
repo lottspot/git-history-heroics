@@ -1,0 +1,29 @@
+diff --git a/about.txt b/about.txt
+new file mode 100644
+index 0000000..6c0bf7b
+--- /dev/null
++++ b/about.txt
+@@ -0,0 +1 @@
++This branch will help you get practice using the `git add -p` command
+diff --git a/index.txt b/index.txt
+index 57b4c6b..092cc6b 100644
+--- a/index.txt
++++ b/index.txt
+@@ -1,3 +1,5 @@
+ This document is simply a list of the other documents in this repository
+
+ - README.md
++- instructions.txt
++- about.txt
+diff --git a/instructions.txt b/instructions.txt
+new file mode 100644
+index 0000000..1e05684
+--- /dev/null
++++ b/instructions.txt
+@@ -0,0 +1,6 @@
++If you want to stage this file for a commit, and ONLY stage the line of index.txt which refers to this file, run:
++
++git add instructions.txt
++git add -p index.txt
++
++And follow the interactive prompt. Then, commit your changes and profit!
