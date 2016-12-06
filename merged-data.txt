@@ -1,0 +1,1 @@
+This file is just a piece of data that can be safely merged by other branches
