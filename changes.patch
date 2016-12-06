@@ -1,0 +1,25 @@
+diff --git a/index.txt b/index.txt
+index 57b4c6b..4c646aa 100644
+--- a/index.txt
++++ b/index.txt
+@@ -1,3 +1,4 @@
+ This document is simply a list of the other documents in this repository
+
+ - README.md
++- instructions.txt
+diff --git a/instructions.txt b/instructions.txt
+new file mode 100644
+index 0000000..5303007
+--- /dev/null
++++ b/instructions.txt
+@@ -0,0 +1,10 @@
++In order to experiment with amending commits, stage and commit the changes to index.txt
++without committing the addition of this file. At this point, go ahead and view the commit
++history with `git log`, and check out what the last commit looks like using `git show HEAD`.
++Now run the following:
++
++git add instructions.txt
++git commit --amend
++
++Once you complete the commit, run the `git log` and the `git show HEAD` commands to see
++what changed... or didn't
